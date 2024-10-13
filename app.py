@@ -200,7 +200,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('Dfwnwrnwrhn.jpeg') 
+add_bg_from_local('Islamic mosque with black background vector 07 free download') 
 
 
 
