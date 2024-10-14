@@ -174,7 +174,7 @@ st.markdown(
     <style>
    /* Change all font colors to blue */
     * {
-       color: white !important;
+       color: red !important;
     }
 
     /* Optionally, you can add more styles here */
