@@ -169,20 +169,20 @@ st.set_page_config(
 )
  # Save the inverted image if needed
 
-#st.markdown(
-  #  """
-  #  <style>
- #   /* Change all font colors to blue */
-#    * {
-#        color: white !important;
-#    }
+st.markdown(
+    """
+    <style>
+   /* Change all font colors to blue */
+    * {
+       color: white !important;
+    }
 
- #   /* Optionally, you can add more styles here */
- #   </style>
-#    """,
-#    unsafe_allow_html=True
-#)
-#"""
+    /* Optionally, you can add more styles here */
+   </style>
+    """,
+    unsafe_allow_html=True
+)
+
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
