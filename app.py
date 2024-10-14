@@ -222,7 +222,7 @@ def speak_and_print(text_,question):
     for i in text_:
         t = t[:-2]+i+t[-2:]
         output_placeholder.write(t)
-        time.sleep(0.05)
+        time.sleep(0.0005)
     # output_placeholder.write('')
     # st.write(text_)
 
